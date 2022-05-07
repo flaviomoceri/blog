@@ -13,7 +13,7 @@ const PostCard = ({ post }) => {
           className="lg:rounded-lg absolute h-80 w-full rounded-t-lg object-cover object-top shadow-lg"
         />
       </div>
-      <h1 className="cursor-pointer mb-8 text-center text-3xl font-semibold transition duration-700 hover:text-pink-600">
+      <h1 className="cursor-pointer mb-8 text-center text-3xl font-semibold transition duration-700 hover:text-purple-600">
         <Link href={`/post/${post.slug}`}>{post.title}</Link>
       </h1>
       <div className="mb-8 block w-full items-center justify-center text-center lg:flex">
@@ -32,7 +32,7 @@ const PostCard = ({ post }) => {
         <div className="font-medium  text-gray-700">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="mr-2 inline h-6 w-6 text-pink-500"
+            className="mr-2 inline h-6 w-6 text-purple-500"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -52,7 +52,7 @@ const PostCard = ({ post }) => {
       </p>
       <div className="text-center">
         <Link href={`/post/${post.slug}`}>
-          <span className="inline-block transform cursor-pointer rounded-full bg-pink-600 
+          <span className="inline-block transform cursor-pointer rounded-full bg-gradient-to-l from-dark-purple to-light-purple 
           px-8 py-3 text-lg font-medium text-white transition duration-500 hover:-translate-y-1">
             Continue Reading
           </span>
