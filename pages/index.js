@@ -10,7 +10,7 @@ export default function Home({ posts }) {
     <div className="container mx-auto mb-8 px-10">
       <Head>
         
-        <title>Yolboy</title>
+        <title>Flavio Moceri - Blog</title>
         <link rel="icon" href="/favicon.ico" />
         <meta name="theme-color" content="#222730"></meta>
       </Head>
