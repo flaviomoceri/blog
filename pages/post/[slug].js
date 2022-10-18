@@ -10,6 +10,7 @@ import {
   CommentsForm,
   Loader,
 } from '../../components'
+import Head from 'next/head';
 
 const PostDetails = ({ post }) => {
   const router = useRouter();
@@ -19,6 +20,11 @@ const PostDetails = ({ post }) => {
   }
   return (
     <div className="container mx-auto mb-8 px-10">
+      <Head>
+        
+        <title>{post.title} - Blog</title>
+        <meta name="theme-color" content="#222730"></meta>
+      </Head>
       <div className="grid grid-cols-1 gap-12 lg:grid-cols-12">
         <div className="col-span-1 lg:col-span-8">
           <PostDetail post={post} />

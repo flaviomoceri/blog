@@ -18,7 +18,7 @@ const Header = () => {
         <div className="block md:float-left">
           <Link href="/">
             <span className="cursor-pointer text-4xl font-bold text-black">
-           Flavio Moceri
+           <img className='w-[200px] float-left' src='/logo.png'/>
             </span>
           </Link>
           <div className="dropdown">
